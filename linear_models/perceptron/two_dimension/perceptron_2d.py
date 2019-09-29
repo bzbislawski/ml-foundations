@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-dataset = pd.read_csv("linear_regression_dataset_2d.csv")
+dataset = pd.read_csv("perceptron_dataset_2d.csv")
 data = dataset[['label', 'x', 'y']].values
 data_x = dataset[['x']].values
 data_y = dataset[['y']].values
